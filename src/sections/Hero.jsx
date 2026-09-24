@@ -53,7 +53,7 @@ export default function Hero() {
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Link
                 to="/contact"
-                className="group inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-[0.95rem] font-medium text-black transition-colors duration-200 hover:bg-violet-soft hover:text-white"
+                className="group inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-[0.95rem] font-medium text-ink transition-colors duration-200 hover:bg-violet-soft hover:text-white"
               >
                 Start a Project
                 <ArrowUpRight size={16} strokeWidth={2.25} className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

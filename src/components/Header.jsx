@@ -6,8 +6,8 @@ import Logo from "./Logo";
 const navItems = [
   { label: "Home", to: "/" },
   { label: "Services", to: "/services" },
-  { label: "Solutions", to: "/#industries" },
-  { label: "Technologies", to: "/#technologies" },
+  { label: "Solutions", to: "/solutions" },
+  { label: "Technologies", to: "/technologies" },
   { label: "About", to: "/about" },
   { label: "Contact", to: "/contact" },
 ];
@@ -39,7 +39,7 @@ export default function Header() {
       <div className="container-px flex items-center justify-between h-[72px]">
         <Link to="/" className="flex items-center gap-2.5" aria-label="Jayanth Technologies home">
           <Logo className="h-7 w-7" />
-          <span className="font-display text-[1.15rem] tracking-tight text-paper">
+          <span className="font-display text-[1.05rem] tracking-tight text-paper">
             Jayanth Technologies
           </span>
         </Link>
@@ -50,7 +50,7 @@ export default function Header() {
               key={item.label}
               to={item.to}
               className={({ isActive }) =>
-                `text-lg transition-colors duration-150 ${
+                `text-sm transition-colors duration-150 ${
                   isActive && !item.to.includes("#")
                     ? "text-paper"
                     : "text-mist hover:text-paper"

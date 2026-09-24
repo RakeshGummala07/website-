@@ -1,12 +1,9 @@
 import Hero from "../sections/Hero";
 import Capabilities from "../sections/Capabilities";
 import ServicesPreview from "../sections/ServicesPreview";
-import TechStack from "../sections/TechStack";
 import WhyUs from "../sections/WhyUs";
-import Process from "../sections/Process";
-import Projects from "../sections/Projects";
-import Industries from "../sections/Industries";
 import CtaBand from "../sections/CtaBand";
+import ExploreMore from "../sections/ExploreMore";
 import SEO from "../components/SEO";
 
 export default function Home() {
@@ -19,11 +16,8 @@ export default function Home() {
       <Hero />
       <Capabilities />
       <ServicesPreview />
-      <TechStack />
       <WhyUs />
-      <Process />
-      <Projects />
-      <Industries />
+      <ExploreMore />
       <CtaBand />
     </>
   );
