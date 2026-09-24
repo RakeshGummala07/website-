@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Light, white-forward palette */
+  --color-ink: #FFFFFF;
+  --color-ink-soft: #F7F5FC;
+  --color-surface: #FAF9FE;
+  --color-surface-solid: #FFFFFF;
+  --color-surface-raised: #F3F0FA;
+  --color-line: #E6E1F2;
+  --color-line-soft: #EEEAF8;
+  --color-violet: #7C3AED;
+  --color-violet-soft: #6D28D9;
+  --color-magenta: #DB2777;
+  --color-magenta-soft: #BE185D;
+  --color-paper: #191330;
+  --color-mist: #5C5573;
+  --color-mist-dim: #9691AD;
+
+  --font-display: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-violet);
+  color: white;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-violet-soft);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.container-px {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+@media (min-width: 768px) {
+  .container-px {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media (min-width: 1280px) {
+  .container-px {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+.grain {
+  background-image: radial-gradient(rgba(0,0,0,0.035) 1px, transparent 1px);
+  background-size: 3px 3px;
+}
+
+.text-gradient {
+  background: linear-gradient(100deg, var(--color-paper) 25%, var(--color-violet) 65%, var(--color-magenta) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes drift {
+  0% { transform: translate3d(0,0,0) rotate(0deg); }
+  100% { transform: translate3d(0,0,0) rotate(360deg); }
+}
+
+@keyframes pulse-line {
+  0%, 100% { opacity: 0.25; }
+  50% { opacity: 0.9; }
+}
+
+.animate-pulse-line {
+  animation: pulse-line 3.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse-line { animation: none; opacity: 0.6; }
+}
