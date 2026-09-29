@@ -20,9 +20,9 @@ export const capabilities = [
     icon: "CheckCircle2",
   },
   {
-    title: "Enterprise Solutions",
-    detail: "Custom systems architected around how your business actually runs.",
-    icon: "Building2",
+    title: "Staff Augmentation",
+    detail: "Skilled IT and non-IT professionals, deployed on flexible engagement terms.",
+    icon: "Users",
   },
 ];
 
@@ -53,69 +53,125 @@ export const techStack = [
   },
 ];
 
+// "Our Approach" — from company content
 export const process = [
   {
     step: "01",
-    title: "Discover",
-    detail: "We study the business requirement, current systems and constraints before proposing an approach.",
+    title: "Understand",
+    detail: "We begin by understanding the client's business objectives, technical requirements and project expectations.",
   },
   {
     step: "02",
-    title: "Architect",
-    detail: "System and technology architecture is designed around your scale, security and integration needs.",
+    title: "Analyze",
+    detail: "We analyze the requirements and identify the appropriate technology, resources and approach.",
   },
   {
     step: "03",
-    title: "Build",
-    detail: "Development happens in reviewable increments, with the codebase built for maintainability.",
+    title: "Plan",
+    detail: "We define the project scope, resources, timelines and delivery approach.",
   },
   {
     step: "04",
-    title: "Test",
-    detail: "Functionality, performance and security are validated before anything reaches production.",
+    title: "Develop",
+    detail: "Our technical team works on developing solutions according to the agreed requirements.",
   },
   {
     step: "05",
-    title: "Deploy",
-    detail: "Releases go out through automated pipelines with monitoring in place from day one.",
+    title: "Test",
+    detail: "We conduct testing and validation to ensure the solution meets the required standards.",
   },
   {
     step: "06",
-    title: "Scale",
-    detail: "We monitor real usage and optimize infrastructure and code as the system grows.",
+    title: "Deliver",
+    detail: "We work toward delivering the project within the agreed scope and timelines.",
+  },
+  {
+    step: "07",
+    title: "Support",
+    detail: "We provide ongoing technical support and assistance based on the client's requirements.",
   },
 ];
 
+// "Project Delivery" lifecycle — from company content
+export const projectDelivery = [
+  {
+    step: "01",
+    title: "Requirement Gathering",
+    detail: "We understand and document the client's project requirements.",
+  },
+  {
+    step: "02",
+    title: "Project Planning",
+    detail: "We define the scope, resources, technology and delivery plan.",
+  },
+  {
+    step: "03",
+    title: "Resource Allocation",
+    detail: "We assign suitable technical professionals based on project requirements.",
+  },
+  {
+    step: "04",
+    title: "Development",
+    detail: "Our team develops the software solution according to the approved requirements.",
+  },
+  {
+    step: "05",
+    title: "Testing & Quality Assurance",
+    detail: "We test the solution to identify and resolve issues before delivery.",
+  },
+  {
+    step: "06",
+    title: "Deployment",
+    detail: "We support the implementation and deployment of the completed solution.",
+  },
+  {
+    step: "07",
+    title: "Maintenance & Support",
+    detail: "We provide ongoing support and maintenance based on the engagement requirements.",
+  },
+];
+
+// "Why Choose Jayanth Technologies?" — from company content
 export const whyUs = [
   {
-    title: "Engineering First",
-    detail: "Every solution is built on sound engineering fundamentals, not shortcuts that create rework later.",
+    title: "Software Expertise",
+    detail: "We provide software development and technology solutions aligned with business requirements.",
     icon: "Cpu",
   },
   {
-    title: "Scalable Architecture",
-    detail: "Systems are designed to handle growth in users, data and complexity without a rebuild.",
-    icon: "TrendingUp",
+    title: "Customized Solutions",
+    detail: "We understand individual requirements and develop solutions suited to specific business needs.",
+    icon: "Settings2",
   },
   {
-    title: "Security Focused",
-    detail: "Security review happens throughout development, not as a final checklist item.",
-    icon: "Lock",
+    title: "Skilled Professionals",
+    detail: "We provide qualified IT and non-IT professionals through flexible staff augmentation services.",
+    icon: "Users",
   },
   {
-    title: "Quality Driven",
-    detail: "Testing runs alongside development so defects are caught while they're still cheap to fix.",
+    title: "Flexible Engagement Models",
+    detail: "We support project-based, contract, and long-term technology requirements.",
+    icon: "Layers",
+  },
+  {
+    title: "Project Support",
+    detail: "We support clients across different stages of the project lifecycle.",
+    icon: "LifeBuoy",
+  },
+  {
+    title: "Quality Focus",
+    detail: "We emphasize quality, reliability, and professional standards throughout our engagements.",
     icon: "BadgeCheck",
   },
   {
-    title: "Cloud Ready",
-    detail: "Infrastructure and deployment practices are built for modern cloud environments from the start.",
-    icon: "CloudCog",
+    title: "Client-Centric Service",
+    detail: "We work closely with clients to understand their requirements and provide appropriate solutions.",
+    icon: "MessageCircle",
   },
   {
-    title: "Business Focused",
-    detail: "Technology decisions are made against your actual business goals, not for their own sake.",
-    icon: "Target",
+    title: "Long-Term Partnership",
+    detail: "We focus on building professional relationships based on trust, communication, and consistent service.",
+    icon: "Handshake",
   },
 ];
 

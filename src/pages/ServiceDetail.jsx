@@ -68,7 +68,7 @@ export default function ServiceDetail() {
 
         <Reveal delay={80} className="lg:sticky lg:top-28 h-fit">
           <div className="rounded-2xl border border-line bg-surface-solid p-8">
-            <h3 className="font-display text-base text-paper mb-5">Technology we use</h3>
+            <h3 className="font-display text-base text-paper mb-5">{service.stackLabel || "Technology we use"}</h3>
             <div className="flex flex-wrap gap-2 mb-8">
               {service.stack.map((t) => (
                 <span

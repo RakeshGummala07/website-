@@ -1,8 +1,8 @@
-import { Code2, Cloud, ShieldCheck, CheckCircle2, Building2 } from "lucide-react";
+import { Code2, Cloud, ShieldCheck, CheckCircle2, Users } from "lucide-react";
 import { capabilities } from "../data/content";
 import Reveal from "../components/Reveal";
 
-const icons = { Code2, Cloud, ShieldCheck, CheckCircle2, Building2 };
+const icons = { Code2, Cloud, ShieldCheck, CheckCircle2, Users };
 
 export default function Capabilities() {
   return (

@@ -1,21 +1,21 @@
-import { Cpu, TrendingUp, Lock, BadgeCheck, CloudCog, Target } from "lucide-react";
+import { Cpu, Settings2, Users, Layers, LifeBuoy, BadgeCheck, MessageCircle, Handshake } from "lucide-react";
 import { whyUs } from "../data/content";
 import SectionHeading from "../components/SectionHeading";
 import Reveal from "../components/Reveal";
 
-const icons = { Cpu, TrendingUp, Lock, BadgeCheck, CloudCog, Target };
+const icons = { Cpu, Settings2, Users, Layers, LifeBuoy, BadgeCheck, MessageCircle, Handshake };
 
 export default function WhyUs() {
   return (
     <section className="container-px py-24 border-t border-line-soft bg-ink-soft">
       <SectionHeading
         kicker="Why Jayanth Technologies"
-        title="Why teams work with us"
-        description="Software that's easy to trust comes from disciplined engineering practice, applied consistently."
+        title="Why choose Jayanth Technologies?"
+        description="Software expertise and skilled people, delivered with a focus on quality and long-term partnership."
         align="center"
       />
 
-      <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {whyUs.map((item, i) => {
           const Icon = icons[item.icon];
           return (

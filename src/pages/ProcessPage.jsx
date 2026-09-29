@@ -1,6 +1,7 @@
 import SEO from "../components/SEO";
 import Reveal from "../components/Reveal";
 import Process from "../sections/Process";
+import ProjectDelivery from "../sections/ProjectDelivery";
 import CtaBand from "../sections/CtaBand";
 
 export default function ProcessPage() {
@@ -8,7 +9,7 @@ export default function ProcessPage() {
     <>
       <SEO
         title="Our Process — Jayanth Technologies"
-        description="How a project moves with Jayanth Technologies: Discover, Architect, Build, Test, Deploy, Scale."
+        description="How a project moves with Jayanth Technologies: Understand, Analyze, Plan, Develop, Test, Deliver, Support."
       />
 
       <section className="container-px pt-40 pb-8 text-center">
@@ -18,7 +19,7 @@ export default function ProcessPage() {
             A consistent process, from first call to production.
           </h1>
           <p className="mt-6 text-lg text-mist max-w-xl mx-auto leading-relaxed">
-            Every engagement moves through the same six stages. It keeps
+            Every engagement moves through the same seven stages. It keeps
             projects predictable for our team, and keeps you informed at
             every step.
           </p>
@@ -26,6 +27,7 @@ export default function ProcessPage() {
       </section>
 
       <Process />
+      <ProjectDelivery />
       <CtaBand />
     </>
   );

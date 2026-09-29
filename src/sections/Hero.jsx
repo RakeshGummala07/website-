@@ -43,9 +43,10 @@ export default function Hero() {
 
           <Reveal delay={160}>
             <p className="mt-7 text-lg text-white/80 max-w-lg leading-relaxed">
-              Jayanth Technologies builds, secures, tests and scales digital
-              products for businesses that need software to work correctly the
-              first time — and keep working as they grow.
+              Jayanth Technologies provides software development, IT
+              solutions, project delivery, and staff augmentation services —
+              helping businesses turn their technology requirements into
+              practical, reliable and scalable solutions.
             </p>
           </Reveal>
 

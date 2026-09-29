@@ -29,6 +29,7 @@ const navCols = [
       { label: "Testing & QA", to: "/services/software-testing-qa" },
       { label: "DevOps", to: "/services/devops" },
       { label: "Cloud Solutions", to: "/services/cloud-solutions" },
+      { label: "Staff Augmentation", to: "/services/staff-augmentation" },
     ],
   },
 ];
