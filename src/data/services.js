@@ -143,4 +143,29 @@ export const services = [
       "Plan for maintenance from day one, not as an afterthought",
     ],
   },
+  {
+    slug: "staff-augmentation",
+    icon: "Users",
+    title: "Staff Augmentation",
+    short: "Skilled IT and non-IT professionals, deployed on flexible engagement terms.",
+    overview:
+      "Not every requirement needs a full project engagement. When you need capacity — a developer, a tester, a project coordinator — for a defined period or an ongoing role, we provide qualified professionals who integrate with your existing team and ways of working.",
+    value:
+      "Access to skilled people without the overhead of a lengthy hiring cycle, scaled up or down as the requirement changes.",
+    provide: [
+      "IT professionals across development, testing, DevOps and cloud",
+      "Non-IT professionals to support related business functions",
+      "Project-based, contract and long-term placements",
+      "Resource allocation aligned to project requirements",
+      "Ongoing coordination with your internal team",
+    ],
+    stackLabel: "Roles we support",
+    stack: ["Full Stack Developers", "QA Engineers", "DevOps Engineers", "Cloud Engineers", "Business Analysts", "Project Coordinators"],
+    approach: [
+      "Understand the role, skill set and duration you need",
+      "Shortlist professionals matched to the requirement",
+      "Align on reporting, communication and ways of working",
+      "Stay involved for the length of the engagement, not just placement",
+    ],
+  },
 ];

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Code2, ShieldCheck, CheckCircle2, Workflow, Cloud, Settings2 } from "lucide-react";
+import { ArrowRight, Code2, ShieldCheck, CheckCircle2, Workflow, Cloud, Settings2, Users } from "lucide-react";
 import { services } from "../data/services";
 import SectionHeading from "../components/SectionHeading";
 import Reveal from "../components/Reveal";
 
-const icons = { Code2, ShieldCheck, CheckCircle2, Workflow, Cloud, Settings2 };
+const icons = { Code2, ShieldCheck, CheckCircle2, Workflow, Cloud, Settings2, Users };
 
 export default function ServicesPreview() {
   return (
@@ -12,7 +12,7 @@ export default function ServicesPreview() {
       <SectionHeading
         kicker="What we do"
         title="Services built around your business"
-        description="Six disciplines, one accountable team — architected together instead of handed off between vendors."
+        description="Seven disciplines, one accountable team — architected together instead of handed off between vendors."
         align="center"
       />
 

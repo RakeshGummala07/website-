@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <SEO
         title="Jayanth Technologies — IT Services & Software Engineering, Hyderabad"
-        description="Jayanth Technologies is a Hyderabad-based technology partner offering full stack development, cyber security, software testing, DevOps and cloud solutions."
+        description="Jayanth Technologies Pvt Ltd is a Hyderabad-based software company providing full stack development, cyber security, software testing, DevOps, cloud solutions and staff augmentation services."
       />
       <Hero />
       <Capabilities />

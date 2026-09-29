@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Code2, ShieldCheck, CheckCircle2, Workflow, Cloud, Settings2 } from "lucide-react";
+import { ArrowRight, Code2, ShieldCheck, CheckCircle2, Workflow, Cloud, Settings2, Users } from "lucide-react";
 import { services } from "../data/services";
 import SEO from "../components/SEO";
 import Reveal from "../components/Reveal";
 import CtaBand from "../sections/CtaBand";
 
-const icons = { Code2, ShieldCheck, CheckCircle2, Workflow, Cloud, Settings2 };
+const icons = { Code2, ShieldCheck, CheckCircle2, Workflow, Cloud, Settings2, Users };
 
 export default function Services() {
   return (
@@ -19,7 +19,7 @@ export default function Services() {
         <Reveal>
           <p className="text-sm text-violet-soft mb-4">Services</p>
           <h1 className="font-display text-[2.5rem] sm:text-[3.25rem] leading-[1.08] tracking-tight text-paper max-w-2xl mx-auto">
-            Six disciplines. One accountable team.
+            Seven disciplines. One accountable team.
           </h1>
           <p className="mt-6 text-lg text-mist max-w-xl mx-auto leading-relaxed">
             We don't hand your project between disconnected vendors. Development,
